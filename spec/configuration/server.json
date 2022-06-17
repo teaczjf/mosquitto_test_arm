@@ -1,0 +1,85 @@
+{
+    "modbus-configuration": [
+        {
+            "modbus-id": 0,
+            "modbus-parameter": {
+                "ipaddress": "192.168.0.127",
+                "port": 1502
+            },
+            "modbus-protocol-type": "modbus-tcp"
+        },
+        {
+            "modbus-id": 1,
+            "modbus-parameter": {
+                "ipaddress": "192.168.3.35",
+                "port": 1503
+            },
+            "modbus-protocol-type": "modbus-tcp"
+        },
+        {
+            "modbus-id": 2,
+            "modbus-parameter": {
+                "com-baud": 115200,
+                "com-data-bit": 8,
+                "com-name": "/dev/ttyUSB2",
+                "com-parity": "N",
+                "com-stop-bit": 1
+            },
+            "modbus-protocol-type": "modbus-rtu"
+        },
+        {
+            "modbus-id": 3,
+            "modbus-parameter": {
+                "com-baud": 115200,
+                "com-data-bit": 8,
+                "com-name": "/dev/ttyUSB3",
+                "com-parity": "N",
+                "com-stop-bit": 1
+            },
+            "modbus-protocol-type": "modbus-rtu"
+        },
+        {
+            "modbus-id": 4,
+            "modbus-parameter": {
+                "com-baud": 115200,
+                "com-data-bit": 8,
+                "com-name": "/dev/ttyUSB4",
+                "com-parity": "N",
+                "com-stop-bit": 1
+            },
+            "modbus-protocol-type": "modbus-rtu"
+        },
+        {
+            "modbus-id": 5,
+            "modbus-parameter": {
+                "com-baud": 115200,
+                "com-data-bit": 8,
+                "com-name": "/dev/ttyUSB5",
+                "com-parity": "N",
+                "com-stop-bit": 1
+            },
+            "modbus-protocol-type": "modbus-rtu"
+        }
+    ],
+    "zmq-configuration": [
+        {
+            "server-id": 1,
+            "server-ip-address": "127.0.0.1",
+            "server-port": 6666,
+            "server-role": "public",
+            "server-zmq-topic-list": [
+                "sample-data",
+                "alarm-data"
+            ]
+        },
+        {
+            "server-id": 2,
+            "server-ip-address": "127.0.0.1",
+            "server-port": 9999,
+            "server-role": "subscribe",
+            "server-zmq-topic-list": [
+                "config-data"
+            ]
+        }
+    ]
+}

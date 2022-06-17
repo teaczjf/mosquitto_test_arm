@@ -1,0 +1,666 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1781px" height="1241px" viewBox="-0.5 -0.5 1781 1241" content="&lt;mxfile&gt;&lt;diagram id=&quot;5QIHAreEgNL-Mfifq-Fq&quot; name=&quot;第 1 页&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="720" y="0" width="890" height="940" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <rect x="0" y="60" width="700" height="940" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <path d="M 340 260 L 340 283.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 340 288.88 L 336.5 281.88 L 340 283.63 L 343.5 281.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 340 200 L 340 156.37" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 340 151.12 L 343.5 158.12 L 340 156.37 L 336.5 158.12 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="255" y="200" width="170" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 168px; height: 1px; padding-top: 230px; margin-left: 256px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                数据库初始化
+                                <br/>
+                                <div style="color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &quot;consolas&quot; , &quot;courier new&quot; , monospace ; font-size: 12.6px ; line-height: 17px">
+                                    <span style="color: #61afef">
+                                        mosquitto_lib_init
+                                    </span>
+                                    ();
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="340" y="234" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    数据库初始化
+    mosquitto_lib_init();
+                </text>
+            </switch>
+        </g>
+        <path d="M 340 370 L 340 393.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 340 398.88 L 336.5 391.88 L 340 393.63 L 343.5 391.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="255" y="290" width="170" height="80" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 168px; height: 1px; padding-top: 330px; margin-left: 256px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                生成对象句柄
+                                <br/>
+                                <div style="color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &quot;consolas&quot; , &quot;courier new&quot; , monospace ; font-size: 12.6px ; line-height: 17px">
+                                    <span style="color: #e06c75">
+                                        mosq
+                                    </span>
+                                    <span style="color: #c678dd">
+                                        =
+                                    </span>
+                                    <span style="color: #61afef">
+                                        mosquitto_new
+                                    </span>
+                                    (
+                                    <span style="color: #d19a66">
+                                        NULL
+                                    </span>
+                                    ,
+                                    <span style="color: #d19a66">
+                                        true
+                                    </span>
+                                    ,
+                                    <span style="color: #d19a66">
+                                        NULL
+                                    </span>
+                                    );
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="340" y="334" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    生成对象句柄   mosq = mosquitto_new(NULL...
+                </text>
+            </switch>
+        </g>
+        <path d="M 340 460 L 340 473.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 340 478.88 L 336.5 471.88 L 340 473.63 L 343.5 471.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="255" y="400" width="170" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 168px; height: 1px; padding-top: 430px; margin-left: 256px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                设置回调函数
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="340" y="434" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    设置回调函数
+                </text>
+            </switch>
+        </g>
+        <path d="M 340 550 L 340 583.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 340 588.88 L 336.5 581.88 L 340 583.63 L 343.5 581.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="255" y="480" width="170" height="70" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 168px; height: 1px; padding-top: 515px; margin-left: 256px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                建立连接
+                                <br/>
+                                <div style="color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &quot;consolas&quot; , &quot;courier new&quot; , monospace ; font-size: 12.6px ; line-height: 17px">
+                                    <span style="color: #61afef">
+                                        mosquitto_connect
+                                    </span>
+                                    (
+                                    <span style="color: #e06c75">
+                                        mosq
+                                    </span>
+                                    ,
+                                    <span style="color: #98c379">
+                                        "test.mosquitto.org"
+                                    </span>
+                                    ,
+                                    <span style="color: #d19a66">
+                                        1883
+                                    </span>
+                                    ,
+                                    <span style="color: #d19a66">
+                                        60
+                                    </span>
+                                    );
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="340" y="519" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    建立连接mosquitto_connect(mosq, "tes...
+                </text>
+            </switch>
+        </g>
+        <path d="M 210 630 L 170 630 Q 160 630 160 640 L 160 833.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 160 838.88 L 156.5 831.88 L 160 833.63 L 163.5 831.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="280" y="90" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 120px; margin-left: 281px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                C的方法
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="340" y="124" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    C的方法
+                </text>
+            </switch>
+        </g>
+        <rect x="10" y="840" width="300" height="100" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 298px; height: 1px; padding-top: 890px; margin-left: 11px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &quot;consolas&quot; , &quot;courier new&quot; , monospace ; font-size: 12.6px ; line-height: 17px">
+                                    <div>
+                                        <div style="font-family: &quot;consolas&quot; , &quot;courier new&quot; , monospace ; font-size: 14px ; line-height: 19px">
+                                            <div>
+                                                <span style="color: #e06c75">
+                                                    rc
+                                                </span>
+                                                <span style="color: #c678dd">
+                                                    =
+                                                </span>
+                                                <span style="color: #61afef">
+                                                    mosquitto_publish
+                                                </span>
+                                                (
+                                                <span style="color: #e06c75 ; font-style: italic">
+                                                    mosq
+                                                </span>
+                                                ,
+                                                <span style="color: #d19a66">
+                                                    NULL
+                                                </span>
+                                                ,
+                                                <span style="color: #98c379">
+                                                    "example/temperature"
+                                                </span>
+                                                ,
+                                                <span style="color: #61afef">
+                                                    strlen
+                                                </span>
+                                                (
+                                                <span style="color: #e06c75">
+                                                    payload
+                                                </span>
+                                                ),
+                                                <span style="color: #e06c75">
+                                                    payload
+                                                </span>
+                                                ,
+                                                <span style="color: #d19a66">
+                                                    2
+                                                </span>
+                                                ,
+                                                <span style="color: #d19a66">
+                                                    false
+                                                </span>
+                                                );
+                                            </div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="160" y="894" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    rc = mosquitto_publish(mosq, NULL, "example/te...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1080 140 L 1080 183.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1080 188.88 L 1076.5 181.88 L 1080 183.63 L 1083.5 181.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="1020" y="80" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 110px; margin-left: 1021px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                C++的接口
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1080" y="114" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    C++的接口
+                </text>
+            </switch>
+        </g>
+        <path d="M 470 630 L 520 630 Q 530 630 530 640 L 530 833.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 530 838.88 L 526.5 831.88 L 530 833.63 L 533.5 831.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 340 590 L 470 630 L 340 670 L 210 630 Z" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 258px; height: 1px; padding-top: 630px; margin-left: 211px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <span>
+                                    准备完毕循环等待接收或发送
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="340" y="634" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    准备完毕循环等待接收或发送
+                </text>
+            </switch>
+        </g>
+        <rect x="150" y="610" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 620px; margin-left: 170px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                发送
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="170" y="624" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    发送
+                </text>
+            </switch>
+        </g>
+        <rect x="380" y="840" width="300" height="100" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 298px; height: 1px; padding-top: 890px; margin-left: 381px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &quot;consolas&quot; , &quot;courier new&quot; , monospace ; font-size: 12.6px ; line-height: 17px">
+                                    <div style="font-family: &quot;consolas&quot; , &quot;courier new&quot; , monospace ; font-size: 14px ; line-height: 19px">
+                                        <div>
+                                            通过回调函数来处理接收到的订阅信息
+                                        </div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="530" y="894" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    通过回调函数来处理接收到的订阅信息
+                </text>
+            </switch>
+        </g>
+        <rect x="500" y="610" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 620px; margin-left: 520px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: nowrap;">
+                                接收
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="520" y="624" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    接收
+                </text>
+            </switch>
+        </g>
+        <path d="M 1080 250 L 1080 263.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1080 268.88 L 1076.5 261.88 L 1080 263.63 L 1083.5 261.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="955" y="190" width="250" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 248px; height: 1px; padding-top: 220px; margin-left: 956px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                数据库初始化
+                                <br/>
+                                <div style="color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &quot;consolas&quot; , &quot;courier new&quot; , monospace ; font-size: 16.8px ; line-height: 22px">
+                                    <span style="color: #e5c07b">
+                                        mosqpp
+                                    </span>
+                                    ::
+                                    <span style="color: #61afef">
+                                        lib_init
+                                    </span>
+                                    ();
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1080" y="224" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    数据库初始化
+mosqpp::lib_init();
+                </text>
+            </switch>
+        </g>
+        <path d="M 1080 330 L 1080 343.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1080 348.88 L 1076.5 341.88 L 1080 343.63 L 1083.5 341.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="955" y="270" width="250" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 248px; height: 1px; padding-top: 300px; margin-left: 956px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                建立连接
+                                <br/>
+                                <div style="color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &quot;consolas&quot; , &quot;courier new&quot; , monospace ; font-size: 16.8px ; line-height: 22px">
+                                    <span style="color: #61afef">
+                                        connect
+                                    </span>
+                                    (
+                                    <span style="color: #e06c75 ; font-style: italic">
+                                        host
+                                    </span>
+                                    ,
+                                    <span style="color: #e06c75 ; font-style: italic">
+                                        port
+                                    </span>
+                                    ,
+                                    <span style="color: #d19a66">
+                                        60
+                                    </span>
+                                    );
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1080" y="304" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    建立连接
+connect(host, port, 60);
+                </text>
+            </switch>
+        </g>
+        <path d="M 1044.32 558.11 L 1008.85 586.06" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1004.72 589.31 L 1008.06 582.23 L 1008.85 586.06 L 1012.39 587.73 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 1127.27 554.24 L 1191.33 587.09" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1196.01 589.49 L 1188.18 589.41 L 1191.33 587.09 L 1191.37 583.18 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 1080 490 L 1200 530 L 1080 570 L 960 530 Z" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 238px; height: 1px; padding-top: 530px; margin-left: 961px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                准备完毕
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1080" y="534" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    准备完毕
+                </text>
+            </switch>
+        </g>
+        <rect x="790" y="590" width="250" height="140" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 248px; height: 1px; padding-top: 660px; margin-left: 791px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &quot;consolas&quot; , &quot;courier new&quot; , monospace ; font-size: 16.8px ; line-height: 22px">
+                                    <div>
+                                        <span style="color: #61afef">
+                                            publish
+                                        </span>
+                                        (
+                                        <span style="color: #d19a66">
+                                            NULL
+                                        </span>
+                                        , (
+                                        <span style="color: #61afef">
+                                            GetModuleName
+                                        </span>
+                                        ()
+                                        <span style="color: #61afef">
+                                            +
+                                        </span>
+                                        <span style="color: #98c379">
+                                            "/HeartBeat"
+                                        </span>
+                                        ).
+                                        <span style="color: #61afef">
+                                            data
+                                        </span>
+                                        (),
+                                        <span style="color: #61afef">
+                                            GetModuleName
+                                        </span>
+                                        ().
+                                        <span style="color: #61afef">
+                                            length
+                                        </span>
+                                        (),
+                                        <span style="color: #61afef">
+                                            GetModuleName
+                                        </span>
+                                        ().
+                                        <span style="color: #61afef">
+                                            data
+                                        </span>
+                                        ());
+                                    </div>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="915" y="664" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    publish(NULL, (GetModuleName() + "/He...
+                </text>
+            </switch>
+        </g>
+        <rect x="1160" y="590" width="620" height="280" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 618px; height: 1px; padding-top: 730px; margin-left: 1161px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &quot;consolas&quot; , &quot;courier new&quot; , monospace ; font-size: 16.8px ; line-height: 22px">
+                                    <div>
+                                        <span style="color: #7f848e ; font-style: italic">
+                                            /* ********************************************************/
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #7f848e ; font-style: italic">
+                                            /**
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #7f848e ; font-style: italic">
+                                            *
+                                        </span>
+                                        <span style="color: #c678dd ; font-style: italic">
+                                            @brief
+                                        </span>
+                                        <span style="color: #7f848e ; font-style: italic">
+                                            callback after recieve message
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #7f848e ; font-style: italic">
+                                            * on_message 这个是mosquitto的虚函数，module类重新定义了
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #7f848e ; font-style: italic">
+                                            * 全局收索发现，林哥只是重定义了这个虚函数，这个应该是mosquito内部的回调函数。
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #7f848e ; font-style: italic">
+                                            * 收到信息了就会调用这个
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #7f848e ; font-style: italic">
+                                            *
+                                        </span>
+                                        <span style="color: #c678dd ; font-style: italic">
+                                            @param
+                                        </span>
+                                        <span style="color: #7f848e ; font-style: italic">
+                                            [
+                                        </span>
+                                        <span style="color: #c678dd ; font-style: italic">
+                                            in
+                                        </span>
+                                        <span style="color: #7f848e ; font-style: italic">
+                                            ]
+                                        </span>
+                                        <span style="color: #e06c75 ; font-style: italic">
+                                            message
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #7f848e ; font-style: italic">
+                                            */
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #7f848e ; font-style: italic">
+                                            /* ********************************************************/
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span style="color: #c678dd">
+                                            void
+                                        </span>
+                                        <span style="color: #e5c07b">
+                                            ModuleBase
+                                        </span>
+                                        ::
+                                        <span style="color: #61afef">
+                                            on_message
+                                        </span>
+                                        (
+                                        <span style="color: #c678dd">
+                                            const
+                                        </span>
+                                        <span style="color: #c678dd">
+                                            struct
+                                        </span>
+                                        <span style="color: #e5c07b">
+                                            mosquitto_message
+                                        </span>
+                                        <span style="color: #c678dd">
+                                            *
+                                        </span>
+                                        <span style="color: #e06c75 ; font-style: italic">
+                                            message
+                                        </span>
+                                        )
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1470" y="734" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    /* ********************************************************/...
+                </text>
+            </switch>
+        </g>
+        <rect x="390" y="1010" width="760" height="230" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 758px; height: 1px; padding-top: 1125px; margin-left: 391px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 17px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                两边对比C++的接口会更简单一些
+                                <br/>
+                                那么接下来我就要按照C++的接口进行整理。本身xdevice上面用的也是C++的
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="770" y="1130" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="17px" text-anchor="middle">
+                    两边对比C++的接口会更简单一些...
+                </text>
+            </switch>
+        </g>
+        <path d="M 1080 410 L 1080 413.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 1080 418.88 L 1076.5 411.88 L 1080 413.63 L 1083.5 411.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="960" y="350" width="240" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 238px; height: 1px; padding-top: 380px; margin-left: 961px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &quot;consolas&quot; , &quot;courier new&quot; , monospace ; font-size: 15.4px ; line-height: 20px">
+                                    <span style="color: #e5c07b">
+                                        ModuleBase
+                                    </span>
+                                    ::
+                                    <span style="color: #61afef">
+                                        Start
+                                    </span>
+                                    ();
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1080" y="384" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    ModuleBase::Start();
+                </text>
+            </switch>
+        </g>
+        <rect x="960" y="420" width="240" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 238px; height: 1px; padding-top: 450px; margin-left: 961px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <div style="color: rgb(171 , 178 , 191) ; background-color: rgb(40 , 44 , 52) ; font-family: &quot;consolas&quot; , &quot;courier new&quot; , monospace ; font-size: 15.4px ; line-height: 20px">
+                                    <span style="color: #61afef">
+                                        loop_start
+                                    </span>
+                                    ();
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="1080" y="454" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    loop_start();
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>

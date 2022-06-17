@@ -1,0 +1,84 @@
+/**
+* @file datastruct.proto
+* @brief  this file define all struct same as database table
+* @author Fan Chuanlin, fancl@dscr.com.cn
+* @version 1.0
+* @date 2021-10-24
+*/
+
+syntax = "proto3";
+
+import "google/protobuf/any.proto";
+import "google/protobuf/timestamp.proto";
+
+
+//************************user define start***********************************//
+message Proto3ProtocolTypeCfg
+{
+    int32 protoId = 1;
+    string protoName = 2;
+    enum protoFormat
+    {
+        FORMAT_ASCII = 0;
+        FORMAT_HEX = 1;
+        FORMAT_ASCII_HEX = 2;
+    }
+    protoFormat format = 3;
+}
+
+message Proto3ProtocolFieldCfg
+{
+    int32 protoId = 1;
+    int32 fieldIndex = 2;
+    string fieldName = 3;
+    int32 fieldSize = 4;
+    string value = 5;
+    string min = 6;
+    string max = 7;
+	int32 offset = 8;
+    enum dataType
+    {
+        DATATYPE_DEFAULT = 0;
+        DATATYPE_STR = 1;
+        DATATYPE_UINT_STR = 2;
+        DATATYPE_INT_STR = 3;
+        DATATYPE_FLOAT_STR = 4;
+        DATATYPE_END = 5;
+        DATATYPE_HEX = 6;
+        DATATYPE_HEX_STR = 7;
+        DATATYPE_DOUBLE = 8;
+        DATATYPE_PAYLOAD = 9;
+        DATATYPE_INT8 = 10;
+        DATATYPE_TIMESTR = 11;
+    }
+	dataType type = 9;
+}
+//***********************user define end************************************//
+
+
+//***********************sys define start, don't modify**************************//
+message TDSDataPayload
+{
+    enum Operation
+    {
+        OPERATION_ADD = 0;
+        OPERATION_DEL = 1;
+        OPERATION_UPDATE = 2;
+        OPERATION_QUERY = 3;
+    }
+    Operation operation = 1;
+    repeated google.protobuf.Any data = 3;
+}
+
+message TDSData
+{
+    string table = 1; /// table name
+    enum Flags{
+        NORMAL_DISPATCH = 0;//？
+        FULL_DISPATCH = 1;//？
+    }
+    Flags flags = 2; /// normal , full
+    repeated TDSDataPayload payload = 3;
+}
+
+//***********************sys define end, don't modify**************************//

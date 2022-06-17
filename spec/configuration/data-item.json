@@ -1,0 +1,60 @@
+{
+    "data-item-list": [
+        {
+            "address": 1,
+            "data-transform": 0,
+            "data-type": 0,
+            "modbus-id": 0,
+			"modbus-station-id": 3,
+            "operation": 0,
+            "value": null,
+            "widget": {
+                "widget-id": "PowerAlarmNoteText",
+				"widget-item": "item1",
+                "widget-type": "table"
+            }
+        },
+        {
+            "address": 2,
+            "data-transform": 0,
+            "data-type": 0,
+            "modbus-id": 0,
+			"modbus-station-id": 3,
+            "operation": 0,
+            "value": null,
+            "widget": {
+                "widget-id": "AlternatorAlarmNoteText",
+				"widget-item": "item2",
+                "widget-type": "labe"
+            }
+        },
+        {
+            "address": 100,
+            "data-transform": 0,
+            "data-type": 2,
+            "modbus-id": 1,
+			"modbus-station-id": 3,
+            "operation": 0,
+            "value": null,
+            "widget": {
+                "widget-id": "AlternatorAlarmNoteText",
+				"widget-item": "item2",
+                "widget-type": "labe"
+            }
+        },
+        {
+            "address": 3,
+            "data-transform": 1,
+            "data-type": 0,
+            "modbus-id": 0,
+			"modbus-station-id": 3,
+            "operation": 0,
+            "value": null,
+            "widget": {
+                "widget-id": "EnvAlarmNoteText",
+				"widget-item": "item3",
+                "widget-type": "labe"
+            }
+        }
+    ]
+}

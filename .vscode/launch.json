@@ -1,0 +1,28 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [        {
+        "name": "helloworld",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/Build/bin/helloworld",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}/Build/bin/",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "setupCommands": [
+            {
+                "description": "为 gdb 启用整齐打印",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true,
+                "text1": "-gdb-set follow-fork-mode child"
+            }
+        ],
+        "miDebuggerPath": "/home/lkt/Soft_packet/gcc-linaro-arm-linux-gnueabihf-4.9-2014.09_linux/bin/arm-linux-gnueabihf-gdb",
+        "miDebuggerServerAddress": "192.168.2.15:2222"
+    }]
+}

@@ -1,0 +1,55 @@
+{
+ "DataSetName": "test-data-set",
+ "DataSetLen": 1,
+ "item": [
+  {
+   "ModbusId": "1",
+   "Address": "1",
+   "Value": "1",
+   "DataType": "DATA_TYPE_BOOL",
+   "Operation": "OPERATION_READONLY",
+   "DataTransform": "DATA_TRANSFORM_NO",
+   "Widget": {
+    "WidgetId": "label1",
+    "WidgetType": "label"
+   }
+  },
+  {
+   "ModbusId": "2",
+   "Address": "2",
+   "Value": "2",
+   "DataType": "DATA_TYPE_BOOL",
+   "Operation": "OPERATION_READONLY",
+   "DataTransform": "DATA_TRANSFORM_NO",
+   "Widget": {
+    "WidgetId": "label2",
+    "WidgetType": "label"
+   }
+  },
+  {
+   "ModbusId": "1",
+   "Address": "1",
+   "Value": "1",
+   "DataType": "DATA_TYPE_BOOL",
+   "Operation": "OPERATION_READONLY",
+   "DataTransform": "DATA_TRANSFORM_NO",
+   "Widget": {
+    "WidgetId": "label1",
+    "WidgetType": "label"
+   }
+  },
+  {
+   "ModbusId": "2",
+   "Address": "2",
+   "Value": "2",
+   "DataType": "DATA_TYPE_BOOL",
+   "Operation": "OPERATION_READONLY",
+   "DataTransform": "DATA_TRANSFORM_NO",
+   "Widget": {
+    "WidgetId": "label2",
+    "WidgetType": "label"
+   }
+  }
+ ]
+}
+

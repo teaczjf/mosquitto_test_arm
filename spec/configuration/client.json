@@ -1,0 +1,29 @@
+{
+    "front-end-configuration": {
+        "alternator-data-server": 4,
+        "environment-data-server": 1,
+        "hydraulic-data-server": 2,
+        "power-data-server": 3
+    },
+    "zmq-configuration": [
+        {
+            "server-id": 1,
+            "server-ip-address": "127.0.0.1",
+            "server-port ": 6666,
+            "server-role": "subscribe",
+            "server-zmq-topic-list": [
+                "sample-data",
+                "alarm-data"
+            ]
+        },
+        {
+            "server-id": 2,
+            "server-ip-address": "127.0.0.1",
+            "server-port": 9999,
+            "server-role": "public",
+            "server-zmq-topic-list": [
+                "config-data"
+            ]
+        }
+    ]
+}

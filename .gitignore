@@ -1,0 +1,4 @@
+Build
+/Debug/*
+*.log
+/release/*

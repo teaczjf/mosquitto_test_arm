@@ -1,0 +1,143 @@
+/**
+* @file datastruct.proto
+* @brief  this file define all struct same as database table
+* @author Fan Chuanlin, fancl@dscr.com.cn
+* @version 1.0
+* @date 2021-10-24
+*/
+
+syntax = "proto3";
+
+import "google/protobuf/any.proto";
+import "google/protobuf/timestamp.proto";
+
+
+//************************user define start***********************************//
+message Proto3ProtocolTypeCfg
+{
+    int32 protoId = 1;
+    string protoName = 2;
+    enum protoFormat
+    {
+        FORMAT_ASCII = 0;
+        FORMAT_HEX = 1;
+        FORMAT_ASCII_HEX = 2;
+    }
+    protoFormat format = 3;
+}
+
+message Proto3ProtocolFieldCfg
+{
+    int32 protoId = 1;
+    int32 fieldIndex = 2;
+    string fieldName = 3;
+    int32 fieldSize = 4;
+    string value = 5;
+    string min = 6;
+    string max = 7;
+	int32 offset = 8;
+    enum dataType
+    {
+        DATATYPE_DEFAULT = 0;
+        DATATYPE_STR = 1;
+        DATATYPE_UINT_STR = 2;
+        DATATYPE_INT_STR = 3;
+        DATATYPE_FLOAT_STR = 4;
+        DATATYPE_END = 5;
+        DATATYPE_HEX = 6;
+        DATATYPE_HEX_STR = 7;
+        DATATYPE_DOUBLE = 8;
+        DATATYPE_PAYLOAD = 9;
+        DATATYPE_INT8 = 10;
+        DATATYPE_TIMESTR = 11;
+    }
+	dataType type = 9;
+}
+
+
+message Proto3DeviceInfoCfg //这个表项对应数据库表1
+{
+        int32 ID = 1;
+        string DEV_NAME = 2; //设备名：AA_BBB:AA项目_BBB设备
+        // string DEV_CMD_TABLE_NAME; // AA项目_BBB设备指令总表的名字
+        string CMD_EXCEL_PATH = 3;  //设备指令定义表的路径
+        string COMUNITATE_MODE = 4; //通讯方式 TCP_SERVER、TCP_CLIENT、UDP_SERVE、UDPMC 。。。(后面还可以扩展串口)
+        string TCP_IP = 5;          // TCP IP地址
+        int32 TCP_PORT = 6;       // TCP 端口号
+        string UDP_IP_SRC = 7;      // UDP本地IP
+        int32 UDP_PORT_SRC = 8;   // UDP本地端口号
+        string UDP_IP_DST = 9;      // UDP目标IP地址
+        int32 UDP_PORT_DST = 10;   // UDP目标端口号
+        string UDPMC_IP = 11;        // UDP组播 绑定的网卡ip
+        string UDPMC_IP_TX = 12;     // UDP组播 用于发送的IP组播地址
+        int32 UDPMC_PORT_TX = 13;  // UDP组播 用于发送的IP组播端口号
+        string UDPMC_IP_RX = 14;     // UDP组播 用于接收的IP组播地址
+        int32 UDPMC_PORT_RX = 15;  // UDP组播 用于接收的IP组播端口号
+}
+
+message Proto3DeviceAllCMD //用来传递协议的定义
+{
+        int32 ID = 1;
+        string DEV_NAME = 2;    //指令归属的设备名称 ： AA_BBB_XXXXCMD
+        string PROTOCOL_NAME = 3;    //协议名称 ： AA_BBB_XXXXCMD
+        repeated Proto3DeviceCMDDefine CMDs = 4; //repeated 选项保存全部字段的定义
+}
+//对应数据库的表2和表3
+
+message Proto3DeviceCMDDefine //用来传递协议的定义
+{
+        string CMD_NAME = 1;    //指令名称 ： AA_BBB_XXXXCMD
+        string ENCODE = 2;       // 协议类型HEX ASCII
+        int32 Timing_CMD_Cycle_period = 3;       // // 定时自动发送报文周期 单位S
+        repeated Proto3CMDFieldCfg felids = 4; //repeated 选项保存全部字段的定义
+}
+
+message Proto3CMDFieldCfg //协议字段定义的参数
+{
+        int32 ID = 1;
+        int32 fieldIndex = 2;   ///< 字段序列号
+        string fieldName = 3; ///< 字段名称
+        int32 fieldSize = 4;    ///< 字段大小
+        string value = 5;     ///< 字段的值
+        string minValue= 6;  ///< 最大值
+        string maxValue = 7;  ///< 最小值
+        int32 dataType = 8;          ///< 字段的数据类型
+        int32 operation_in = 9;      ///<对于从设备读取到的数据需要进行的加减乘除的处理
+        int32 operation_in_num = 10;  ///>对于从设备读取到的数据需要进行的加减乘除的处理的参数
+        int32 operation_out = 11;     ///<对于从上层传下来的数据需要进行的加减乘除的处理
+        int32 operation_out_num = 12; ///>对于从上层传下来的数据需要进行的加减乘除的处理的参数
+        int32 operaBO_in = 13;        ///>细节的字节序控制 类似modbus{ AB\BA\ABCD\DCBA等}
+        int32 operaBO_out = 14;       ///>细节的字节序控制
+        string Lua_Script_in = 15;  ///< Lua脚本名
+        string Lua_Script_out = 16; ///< Lua脚本名
+}
+
+//***********************user define end************************************//
+
+
+//***********************sys define start, don't modify**************************//
+message TDSDataPayload
+{
+    enum Operation
+    {
+        OPERATION_ADD = 0;
+        OPERATION_DEL = 1;
+        OPERATION_UPDATE = 2;
+        OPERATION_QUERY = 3;
+    }
+    Operation operation = 1;
+    repeated google.protobuf.Any data = 3;
+}
+
+message TDSData
+{
+    string table = 1; /// table name
+    enum Flags{
+        NORMAL_DISPATCH = 0;//？
+        FULL_DISPATCH = 1;//？
+    }
+    Flags flags = 2; /// normal , full
+    repeated TDSDataPayload payload = 3;
+}
+
+//***********************sys define end, don't modify**************************//

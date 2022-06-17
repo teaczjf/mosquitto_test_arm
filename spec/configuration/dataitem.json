@@ -1,0 +1,74 @@
+{
+  "data-item-list": [
+    {
+      "address": "0x10",
+      "data-transform": "no",
+      "data-type": "bool",
+      "modbus-id": "1",
+      "modbus-station-id": "2",
+      "operation": "read",
+      "value": null,
+      "widget": {
+        "widget-id": "label_device_temperature_1",
+        "widget-item": "None",
+        "widget-type": "label"
+      }
+    },
+    {
+      "address": "0x11",
+      "data-transform": "no",
+      "data-type": "int16",
+      "modbus-id": "1",
+      "modbus-station-id": "2",
+      "operation": "read",
+      "value": null,
+      "widget": {
+        "widget-id": "label_device_temperature_1",
+        "widget-item": "None",
+        "widget-type": "label"
+      }
+    },
+    {
+      "address": "0x12",
+      "data-transform": "no",
+      "data-type": "int32",
+      "modbus-id": "1",
+      "modbus-station-id": "3",
+      "operation": "read",
+      "value": null,
+      "widget": {
+        "widget-id": "button_device_power_off",
+        "widget-item": "None",
+        "widget-type": "label"
+      }
+    },
+    {
+      "address": "0x13",
+      "data-transform": "no",
+      "data-type": "bool",
+      "modbus-id": "2",
+      "modbus-station-id": "4",
+      "operation": "read",
+      "value": null,
+      "widget": {
+        "widget-id": "table_device_alarm",
+        "widget-item": "table_device_alarm_content",
+        "widget-type": "label"
+      }
+    },
+    {
+      "address": "0x14",
+      "data-transform": "no",
+      "data-type": "int16",
+      "modbus-id": "3",
+      "modbus-station-id": "4",
+      "operation": "read/write",
+      "value": null,
+      "widget": {
+        "widget-id": "table_device_alarm",
+        "widget-item": "None",
+        "widget-type": "button"
+      }
+    }
+  ]
+}
