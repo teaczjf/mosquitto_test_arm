@@ -22,7 +22,7 @@
                 "text1": "-gdb-set follow-fork-mode child"
             }
         ],
-        "miDebuggerPath": "/home/lkt/Soft_packet/gcc-linaro-arm-linux-gnueabihf-4.9-2014.09_linux/bin/arm-linux-gnueabihf-gdb",
-        "miDebuggerServerAddress": "192.168.2.15:2222"
+        // "miDebuggerPath": "/home/lkt/Soft_packet/gcc-linaro-arm-linux-gnueabihf-4.9-2014.09_linux/bin/arm-linux-gnueabihf-gdb",
+        // "miDebuggerServerAddress": "192.168.2.15:2222"
     }]
 }

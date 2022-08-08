@@ -13,3 +13,7 @@ source env_linux.sh
 arm平台 i.mx6ull
 ```
 
+./mosquitto_pub -t 'DatabaseCenter/Table_XPRO_ALL_DEVINFO/Rsp_for_cli
+' -m '腰疼不加班'
+
+./mosquitto_sub  -t 'DatabaseCenter/Table_XPRO_ALL_DEVINFO/Rsp_for_cli' -v

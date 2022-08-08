@@ -133,14 +133,15 @@ BOOLEAN Pub_test::m_mosquitto_init_status = 0;
 int main(int argc, char *argv[])
 {
     // Pub_test *dev_pub = new Pub_test("CliCmdAdapter", "localhost", 1883);
-    Pub_test *dev_pub = new Pub_test("CliCmdAdapter", "192.168.2.133", 6000);
+    Pub_test *dev_pub = new Pub_test("CliCmdAdapter", "124.222.246.93", 8686);
     string message = "SendCmd PH_ACU1 PH_ACU_AntStatus_Format1";
 
     // Proto3DeviceAllCMD device_packet;
     // Proto3DeviceCMDDefine *payload_CMD = device_packet.add_cmds();
     int cnt = 0;
     int packet_num = 1000;
-    string topic = "zjf/topic";
+    string topic = "lqpsc_test";
+
     while (packet_num--)
         while (1)
         {

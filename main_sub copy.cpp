@@ -53,7 +53,7 @@ void mosquittopp_test::on_disconnect(int rc)
 
 void mosquittopp_test::on_subscribe(int mid, int qos_count, const int *granted_qos)
 {
-    LOG(INFO) << "on_subscribe succeeded";
+    LOG(INFO) << "on_subscribe succeeded111";
 
     // disconnect();
 }
@@ -74,12 +74,13 @@ int main(int argc, char *argv[])
     mosq = new mosquittopp_test("DatabaseCenter/Table_XPRO_ALL_DEVINFO/Rsp_for_cli");
 
     mosq->connect("localhost", 1883, 60);
+    mosq->subscribe(NULL, "test", 0);
+
     LOG(INFO) << "run1 = " << run;
     while (run == -1)
     {
         mosq->loop();
     }
-    LOG(INFO) << "run2 = " << run;
 
     delete mosq;
 
